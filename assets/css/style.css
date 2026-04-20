@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* first header */
+.first-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.toggle-menu {
+    border: none;
+    font-size: 22px;
+    background-color: brown;
+    color: white;
+    margin-right: 20px;
+    display: none;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(176, 174, 174);
+    padding: 0 10px 0 0;
+}
+
+input[type="search"] {
+    color: rgb(128, 53, 53);
+    font-size: 14px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    width: 100%;
+}
+.search div i{
+    color: brown;
+    cursor: pointer;
+}
+
+.icon-head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.icon-head a {
+    color: brown;
+    text-decoration: none;
+}
+
+.icon-head a:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+/* secound head */
+
+.secound-header {
+    padding: 10px;
+    background-color: rgb(191, 187, 187);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: brown;
+    position: relative;
+}
+
+.menu-res {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-res a {
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 10px 10px 20px black;
+}
+
+.menu img {
+    background-color: transparent;
+}
+
+.menu a::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    background-color: brown;
+    transform: scale(0);
+    transform-origin: left;
+}
+
+.menu a:hover::before {
+    transition: 0.8s;
+    transform: scale(1);
+}
+
+#hero {
+    height: auto;
+    width: 99vw;
+}
+
+#FindYourperfectmatch {
+    height: auto;
+    width: 100%;
+}
+
+#Tanishq-World {
+    height: auto;
+    width: 100%;
+
+}
+
+.Wedding {
+    position: relative;
+}
+
+.Wedding p {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px red;
+}
+
+.NewArrivals {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    background-image: url(https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw08083f53/homepage/new-arrivals/new-arrivals-background.jpg);
+}
+
+.button-new {
+    font-size: 20px;
+    background-color: rgb(169, 167, 167);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.silver-idol {
+    position: relative;
+}
+
+.silver-idol p {
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px red;
+
+}
+
+.silver-idol img {
+    border: 10px solid white;
+}
+/*  card slider css */
+#card-slider{
+    height: auto;
+    width: 100%;
+}
+
+  swiper-container {
+      width: 240px;
+      height: 320px;
+    }
+
+    swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    swiper-slide:nth-child(1n) {
+      background-color: rgb(206, 17, 17);
+    }
+
+    swiper-slide:nth-child(2n) {
+      background-color: rgb(0, 140, 255);
+    }
+
+    swiper-slide:nth-child(3n) {
+      background-color: rgb(10, 184, 111);
+    }
+
+    swiper-slide:nth-child(4n) {
+      background-color: rgb(211, 122, 7);
+    }
+
+    swiper-slide:nth-child(5n) {
+      background-color: rgb(118, 163, 12);
+    }
+
+    swiper-slide:nth-child(6n) {
+      background-color: rgb(180, 10, 47);
+    }
+
+    swiper-slide:nth-child(7n) {
+      background-color: rgb(35, 99, 19);
+    }
+
+    swiper-slide:nth-child(8n) {
+      background-color: rgb(0, 68, 255);
+    }
+
+    swiper-slide:nth-child(9n) {
+      background-color: rgb(218, 12, 218);
+    }
+
+    swiper-slide:nth-child(10n) {
+      background-color: rgb(54, 94, 77);
+    }
+    .slider-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* card slider end */
+
+#Tanishq-Assurance{
+    height: auto;
+    width: 100%;
+}
+.T-A-text{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    flex-direction: column;
+}
+.T-A-text p{
+    font-size: 70px;
+}
+.T-A-text p span{
+    color: brown;
+}
+.T-A-icon{
+    height: 500px;
+    border-top: 1px solid black;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+.Exchange-Program{
+    width: 100%;
+
+}
+.Trust{
+    height: auto;
+    width: 100%;
+}
+.forever{
+margin-top: 10px;
+justify-content: center;
+align-items: center;
+display: flex; 
+}
+.Lifetime{
+    justify-content: center;
+align-items: center;
+display: flex; 
+gap: 60px;
+}
+
+
+
+.video-desc{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.video-desc::before{
+    content: "";
+    height: 3px;
+    width: 120px;
+      background-color: rgb(220, 219, 219);
+
+    margin: 10px;
+}
+.video-desc::after{
+    content: "";
+    height: 3px;
+    width: 120px;
+    background-color: rgb(220, 219, 219);
+    margin: 10px;
+}
+.video-desc div p{
+font-size: 20px;
+}
+.gift-1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.gift{
+    height: 500px;
+    /* width: 100%; */
+    position: relative;
+    background-color: pink;
+    border-radius: 20px;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.row-gif{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-color: brown;
+    bottom: 50px;
+}
+
+.col-gif{
+ position: absolute;
+    height:100%;
+    width: 30px;
+    background-color: brown;
+   left: 80px;
+}
+.img-gif{
+    position: absolute;
+    bottom: 30px;
+    height: 100px;
+    left: 30px;
+}
+
+.gparal1{
+    font-size: 60px;
+    color: brown;
+}
+.gparal2{
+    font-size: 22px;
+}
+.gparal3{
+    font-size: 22px;
+    color: brown;
+}
+.gbutton{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid brown;
+}
+.card-tanishq{
+    height: 500px;
+    width: 100%;
+    border: 1px solid yellow;
+    line-height: -80px;
+    box-shadow: 5px 5px 50px black;
+    border-radius: 20px;
+
+}
+
+#Tanishq-Experience{
+    height: auto;
+    width: 100%;
+
+}
+#footer{
+    height: auto;
+    width: 100%;
+    background-color: brown;
+    margin-top: 30px;
+}
+.footer-content div a{
+    color: white !important;
+}
+.footer-content div a:hover{
+    color: rgb(146, 145, 145); !important;
+    transform: translateX(10px);
+    transition: 0.5s;
+}
+.Social-icon a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-left: 25px;
+}
+.Social-icon a:hover{
+    transform:translateY(-10px);
+    color: rgb(146, 145, 145);
+}
+.payment-icon{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+@media (max-width:1234px) {
+    .secound-header {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: inline;
+    }
+
+}
+
+@media(max-width:768px) {
+    .search {
+        height: 50px;
+        width: 300px;
+        padding: 5px;
+
+    }
+
+    .icon-head a i {
+        font-size: 30px;
+    }
+
+    .icon-res {
+        display: none;
+    }
+    .gparal1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .gparal2{
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px 0 50px ;
+    }
+    .gparal3{
+        font-size: 18px;
+        padding: 0 20px 0 70px;
+    }
+    .col-gif{
+        left: 30px;
+        width: 20px;
+    }
+    .row-gif{
+        height: 20px;
+    }
+    .img-gif{
+        left: 0px;
+        bottom: 50px;
+        height: 50px;
+
+    }
+    .img-gif img{
+height: 80px;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .search {
+        
+        width: 200px;
+        padding: 5px;
+        height: 30px;
+
+        gap: 0;
+    }
+   .search input{
+    width: 100%;
+   }
+
+    .icon-img img {
+        display: none;
+    }
+    .mic-rea{
+        display: none;
+    }
+
+    .icon-head a i {
+        font-size: 20px;
+    }
+    .m-reg-res{
+        font-size: 14px !important;
+        width: 120px !important;
+    }
+     .gparal1{
+        font-size: 30px;
+        padding: 0 0 0 30px;
+        text-align: center;
+    }
+}
