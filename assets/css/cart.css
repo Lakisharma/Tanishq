@@ -1,0 +1,71 @@
+.cart-btn-shopping{
+         padding: 10px 20px 10px 20px ;
+    color: brown;
+}
+.cart-btn-shopping:hover{
+    box-shadow: 10px 10px 30px brown;
+    transition: 0.5s;
+}
+
+.cart-btn-login{
+     padding: 10px 20px 10px 20px ;
+    color: white;
+    background-color: brown;
+    margin-left: 20px;
+
+}
+.cart-btn-login:hover{
+     box-shadow: 10px 10px 30px brown;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+#cart-jewellery-cart{
+    height: auto;
+    width: 100%;
+
+}
+.cart-manage{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 30px black;
+}
+.cart-manage div div img{
+    height: 200px;
+}
+.cart-manage-inner{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.delete-btn{
+    text-decoration:none;
+    color: brown;
+    font-size: 20px;
+
+}
+.cart-address{
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 30px black;
+    margin-top: 20px;
+}
+@media(max-width:600px) {
+    .cart-btn-shopping{
+        width: 100%;
+    }
+    .cart-btn-login{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .cart-manage div div img{
+    height: 100px;
+}
+    .cart-manage-inner{
+        flex-direction: column;
+    }
+   
+}

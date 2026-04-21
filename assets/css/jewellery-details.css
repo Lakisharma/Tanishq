@@ -1,0 +1,48 @@
+#jewwllery-card-details {
+    height: auto;
+    width: 100%;
+}
+
+.btn-details {
+    background: linear-gradient(45deg, rgb(211, 134, 134), white);
+    padding: 5px;
+    border-radius: 10px;
+    color: brown;
+}
+
+.icon-details {
+
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+.icon-details i {
+    font-size: 22px;
+    /* padding: 5px 0 0 0 ; */
+    margin: 10px;
+}
+.icon-details a{
+    color: brown;
+    text-decoration: none;
+}
+.add-bag-details{
+    width: 100%;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+font-size: 20px;
+
+
+}
+.add-bag-details:hover{
+    color: brown;
+    background-color:rgb(188 ,186,186);
+    transition: 0.5s;
+}
+#more-related{
+    height: auto;
+    width: 100%;
+}
