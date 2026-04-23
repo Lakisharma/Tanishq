@@ -30,7 +30,8 @@
     justify-content:space-between;
     padding: 20px;
     margin: 20px;
-    box-shadow: 10px 10px 30px black;
+    box-shadow: 10px 10px 50px rgb(158, 157, 157);
+    border: none;
 }
 .cart-manage div div img{
     height: 200px;
@@ -49,8 +50,13 @@
 .cart-address{
     padding: 10px;
     border: 1px solid black;
-    box-shadow: 10px 10px 30px black;
+    box-shadow: 10px 10px 50px rgb(158, 157, 157);
     margin-top: 20px;
+    border: none;
+}
+.shipping-form{
+    box-shadow: 10px 10px 50px rgb(158, 157, 157);
+    border-radius: 10px;
 }
 @media(max-width:600px) {
     .cart-btn-shopping{
@@ -67,5 +73,4 @@
     .cart-manage-inner{
         flex-direction: column;
     }
-   
 }
