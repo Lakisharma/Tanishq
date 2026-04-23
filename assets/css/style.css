@@ -424,7 +424,7 @@ font-size: 20px;
     color: white !important;
 }
 .footer-content div a:hover{
-    color: rgb(146, 145, 145); !important;
+    color: rgb(146, 145, 145) !important;
     transform: translateX(10px);
     transition: 0.5s;
 }
